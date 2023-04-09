@@ -1,0 +1,22 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    height: 80px;
+    width: 100vw;
+    
+}
+
+.nav>*{
+    margin: 100px;
+}
